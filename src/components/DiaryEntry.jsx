@@ -67,6 +67,7 @@ export default function DiaryEntry({ day, entries, setEntries }) {
           id="add-diary-entry-button"
           className="entry-buttons"
           onClick={handleAddEntryButton}
+          disabled={!day}
         >
           Add
         </button>
